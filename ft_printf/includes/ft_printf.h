@@ -6,7 +6,7 @@
 /*   By: tonio <tonio@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 14:37:33 by tonio             #+#    #+#             */
-/*   Updated: 2024/11/27 16:14:44 by tonio            ###   ########.fr       */
+/*   Updated: 2024/11/27 17:24:21 by tonio            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 
 int		ft_printf(const char *format, ...);
 
-
 int		print_char(va_list args);
 int		print_str(va_list args);
 int		print_int(va_list args);
@@ -29,9 +28,9 @@ int		print_ptr(va_list args);
 int		print_hex_upper(va_list args);
 int		print_percent(va_list args);
 
-int ft_putchar(char c);
-int ft_putstr(const char *str);
-int ft_strlen(const char *str);
-int ft_putnbr_base(unsigned long long nbr, char *base);
+int		ft_putchar(char c);
+int		ft_putstr(const char *str);
+int		ft_strlen(const char *str);
+int		ft_putnbr_base(unsigned long long nbr, char *base);
 
 #endif

@@ -1,6 +1,6 @@
 SRCDIR =	./src/
 INCLUDES =	./includes/
-SRC = $(addprefix $(SRCDIR), ft_printf.c print_utils.c flag_handlers.c)
+SRC = $(addprefix $(SRCDIR), ft_printf.c print_utils.c flag_handlers.c flag_handlers2.c)
 
 OBJS = $(SRC:.c=.o)
 NAME	= libftprintf.a
